@@ -14,7 +14,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 
 @ExtendWith(SpringExtension.class)
-@WebMvcTest
+@WebMvcTest(HomeController.class)
 public class WebLayerTest {
 
   @Autowired
@@ -23,7 +23,7 @@ public class WebLayerTest {
   /**
    * In this test we start only web layer with @WebMvcTest annotation. You can further configure
    * which controllers will be started by configuring @WebMvcTest.
-   * 
+   *
    * @throws Exception
    */
   @Test
