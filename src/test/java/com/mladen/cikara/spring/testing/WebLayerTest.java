@@ -27,7 +27,7 @@ public class WebLayerTest {
    * @throws Exception
    */
   @Test
-  public void shouldReturnDefaultMessage() throws Exception {
+  void shouldReturnDefaultMessage() throws Exception {
     // @formatter:off
     this.mockMvc
       .perform(get("/"))

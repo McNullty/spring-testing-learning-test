@@ -37,7 +37,7 @@ public class WebMockTest {
    * @throws Exception
    */
   @Test
-  public void greetingShouldReturnMessageFromService() throws Exception {
+  void greetingShouldReturnMessageFromService() throws Exception {
     when(this.service.greet()).thenReturn("Hello Mock");
 
     // @formatter:off
