@@ -32,7 +32,9 @@ public class WebMockTest {
 
   /**
    * Tests only web layer. Server is not started and only GreetingController is put in context. We
-   * must mock service or context starting will fail.
+   * must mock service or context starting will fail. </br>
+   * </br>
+   * This test is also configured to create documentation for GreetingController
    *
    * @throws Exception
    */
