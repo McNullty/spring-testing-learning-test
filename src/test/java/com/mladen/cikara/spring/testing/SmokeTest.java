@@ -16,15 +16,19 @@ public class SmokeTest {
   private HomeController homeController;
 
   /**
-   * This is sanity check that will fail when application context can't start. It
-   * also checks that controller is loaded in context and that is aotowired in
-   * test.
+   * This is sanity check that will fail when application context can't start. It also checks that
+   * controller is loaded in context and that is autowired in test. Server is not started with this
+   * test. </br>
+   * </br>
+   * NOTE: with this simple project with only one controller there is only about 1 second difference
+   * between starting server or not. Server will be started if annotation @SpringBootTest is
+   * configured with webEnvironment = WebEnvironment.RANDOM_PORT.
    *
    * @throws Exception
    */
   @Test
   void contextLoads() throws Exception {
-    assertThat(homeController).isNotNull();
+    assertThat(this.homeController).isNotNull();
   }
 
 }
