@@ -1,0 +1,26 @@
+= RESTful Notes API Guide
+author: Mladen Čikara
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+== CURL request example
+include::{snippets}/greeting/curl-request.adoc[]
+
+== HTTPie request
+include::{snippets}/greeting/httpie-request.adoc[]
+
+== Request structure
+include::{snippets}/greeting/http-request.adoc[]
+
+== Request body
+include::{snippets}/greeting/request-body.adoc[]
+
+== Response structure
+include::{snippets}/greeting/http-response.adoc[]
+
+== Response body
+include::{snippets}/greeting/response-body.adoc[]
