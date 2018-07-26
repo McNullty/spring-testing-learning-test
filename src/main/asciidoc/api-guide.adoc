@@ -7,20 +7,42 @@ author: Mladen Čikara
 :toclevels: 4
 :sectlinks:
 
-== CURL request example
+== MockMVC generated documentation
+
+=== CURL request example
 include::{snippets}/greeting/curl-request.adoc[]
 
-== HTTPie request
+=== HTTPie request
 include::{snippets}/greeting/httpie-request.adoc[]
 
-== Request structure
+=== Request structure
 include::{snippets}/greeting/http-request.adoc[]
 
-== Request body
+=== Request body
 include::{snippets}/greeting/request-body.adoc[]
 
-== Response structure
+=== Response structure
 include::{snippets}/greeting/http-response.adoc[]
 
-== Response body
+=== Response body
 include::{snippets}/greeting/response-body.adoc[]
+
+== RestAssured generated documentation
+
+=== CURL request example
+include::{snippets}/restassured-greeting/curl-request.adoc[]
+
+=== HTTPie request
+include::{snippets}/restassured-greeting/httpie-request.adoc[]
+
+=== Request structure
+include::{snippets}/restassured-greeting/http-request.adoc[]
+
+=== Request body
+include::{snippets}/restassured-greeting/request-body.adoc[]
+
+=== Response structure
+include::{snippets}/restassured-greeting/http-response.adoc[]
+
+=== Response body
+include::{snippets}/restassured-greeting/response-body.adoc[]
