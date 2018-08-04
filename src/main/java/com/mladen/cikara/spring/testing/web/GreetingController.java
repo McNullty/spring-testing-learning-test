@@ -1,4 +1,6 @@
-package com.mladen.cikara.spring.testing;
+package com.mladen.cikara.spring.testing.web;
+
+import com.mladen.cikara.spring.testing.service.GreetingService;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

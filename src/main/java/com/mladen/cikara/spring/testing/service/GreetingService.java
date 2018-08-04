@@ -1,4 +1,4 @@
-package com.mladen.cikara.spring.testing;
+package com.mladen.cikara.spring.testing.service;
 
 import org.springframework.stereotype.Service;
 

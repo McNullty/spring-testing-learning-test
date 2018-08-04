@@ -2,6 +2,8 @@ package com.mladen.cikara.spring.testing;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.mladen.cikara.spring.testing.web.HomeController;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
