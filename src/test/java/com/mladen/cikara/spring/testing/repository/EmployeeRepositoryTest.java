@@ -3,7 +3,6 @@ package com.mladen.cikara.spring.testing.repository;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.mladen.cikara.spring.testing.entity.Employee;
-import com.mladen.cikara.spring.testing.repository.EmployeeRepository;
 
 import java.util.Optional;
 
@@ -14,6 +13,15 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+/**
+ * This test test only persistence layer. TestEntityManager is entity manager only for testing what
+ * we can set up with initial values and then run tests with repository classes.
+ *
+ * Console output will show sql statements.
+ *
+ * @author mladen
+ *
+ */
 @ExtendWith(SpringExtension.class)
 @DataJpaTest
 public class EmployeeRepositoryTest {

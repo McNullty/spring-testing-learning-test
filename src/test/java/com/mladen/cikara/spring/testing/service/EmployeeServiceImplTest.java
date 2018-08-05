@@ -17,6 +17,15 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+/**
+ * Unit test that tests service layer. Spring context doesn't needs to be constructed.
+ * 
+ * @TestConfiguration is used to autowire EmployeeService and Mock EmployeeRepository will be
+ *                    injected.
+ * 
+ * @author mladen
+ *
+ */
 @ExtendWith(SpringExtension.class)
 class EmployeeServiceImplTest {
 
