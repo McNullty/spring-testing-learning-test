@@ -1,4 +1,4 @@
-package com.mladen.cikara.spring.testing;
+package com.mladen.cikara.spring.testing.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
