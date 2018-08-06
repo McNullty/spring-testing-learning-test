@@ -23,7 +23,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith({ RestDocumentationExtension.class, SpringExtension.class })
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class RestAssuredTest {
+public class RestAssuredWithRestDocsTest {
 
   @LocalServerPort
   private int port;

@@ -26,7 +26,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 @ExtendWith({ RestDocumentationExtension.class, SpringExtension.class })
 @WebMvcTest(controllers = { GreetingController.class })
-public class WebMockTest {
+public class WebMockWithRestDocsTest {
 
   private MockMvc mockMvc;
 
